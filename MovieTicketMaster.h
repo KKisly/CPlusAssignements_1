@@ -25,7 +25,7 @@ public:
 MovieTicketMaster::MovieTicketMaster() {
 	theater_name = "Default";
 	theater_location = "Default";
-	std::vector<Movie> movies_entries[8];
+	movies_entries[8] = {};
 
 }
 
